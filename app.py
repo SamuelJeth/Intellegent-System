@@ -87,8 +87,8 @@ accommodations_prompt = get_accommodations(destination)
 itinerary_prompt = get_itinerary(destination)
 
 st.write(activities_prompt)
-  st.write(accommodations_prompt)
-  st.write(itinerary_prompt)
+st.write(accommodations_prompt)
+st.write(itinerary_prompt)
 
 # Say goodbye to the user
 st.write("Thanks for using the vacation planning chatbot. Have a great trip!")
